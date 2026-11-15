@@ -1,0 +1,53 @@
+{
+  "python": "3.12.13",
+  "seed": 42,
+  "cutoff": 28,
+  "archive_sha256": "f2ed1902616c1fe8d2824d872c0b7d2d72be435bf0124d077044fe4be2c6d3e4",
+  "bootstrap_repetitions": 300,
+  "features": [
+    "studied_credits",
+    "num_of_prev_attempts",
+    "date_registration",
+    "clicks",
+    "active_days",
+    "last_activity",
+    "recent_clicks",
+    "code_module"
+  ],
+  "raw_enrolments": 32593,
+  "eligible": 27515,
+  "excluded_at_landmark": 5078,
+  "student_overlap_removed": 1957,
+  "splits": {
+    "train": {
+      "rows": 11797,
+      "students": 11677,
+      "presentations": [
+        "2013B",
+        "2013J"
+      ]
+    },
+    "validation": {
+      "rows": 5832,
+      "students": 5545,
+      "presentations": [
+        "2014B"
+      ]
+    },
+    "test": {
+      "rows": 7929,
+      "students": 7604,
+      "presentations": [
+        "2014J"
+      ]
+    }
+  },
+  "versions": {
+    "numpy": "2.2.6",
+    "pandas": "2.2.3",
+    "scipy": "1.15.3",
+    "scikit-learn": "1.6.1",
+    "matplotlib": "3.10.3",
+    "joblib": "1.5.1"
+  }
+}
