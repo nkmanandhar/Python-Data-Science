@@ -1,0 +1,72 @@
+{
+  "courses": {
+    "rows": 22,
+    "missing": {
+      "code_module": 0,
+      "code_presentation": 0,
+      "module_presentation_length": 0
+    }
+  },
+  "studentInfo": {
+    "rows": 32593,
+    "missing": {
+      "code_module": 0,
+      "code_presentation": 0,
+      "id_student": 0,
+      "gender": 0,
+      "region": 0,
+      "highest_education": 0,
+      "imd_band": 1111,
+      "age_band": 0,
+      "num_of_prev_attempts": 0,
+      "studied_credits": 0,
+      "disability": 0,
+      "final_result": 0
+    }
+  },
+  "studentRegistration": {
+    "rows": 32593,
+    "missing": {
+      "code_module": 0,
+      "code_presentation": 0,
+      "id_student": 0,
+      "date_registration": 45,
+      "date_unregistration": 22521
+    }
+  },
+  "assessments": {
+    "rows": 206,
+    "missing": {
+      "code_module": 0,
+      "code_presentation": 0,
+      "id_assessment": 0,
+      "assessment_type": 0,
+      "date": 11,
+      "weight": 0
+    }
+  },
+  "studentAssessment": {
+    "rows": 173912,
+    "missing": {
+      "id_assessment": 0,
+      "id_student": 0,
+      "date_submitted": 0,
+      "is_banked": 0,
+      "score": 173
+    }
+  },
+  "vle": {
+    "rows": 6364,
+    "missing": {
+      "id_site": 0,
+      "code_module": 0,
+      "code_presentation": 0,
+      "activity_type": 0,
+      "week_from": 5243,
+      "week_to": 5243
+    }
+  },
+  "studentVle": {
+    "rows": 10655280
+  }
+}
